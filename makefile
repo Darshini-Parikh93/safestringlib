@@ -23,6 +23,8 @@ ODEPS = $(addprefix $(SRCDIR)/,$(_ODEPS))
 
 
 _CLIB = abort_handler_s.c stpcpy_s.c strlastsame_s.c ignore_handler_s.c stpncpy_s.c strljustify_s.c memcmp16_s.c strcasecmp_s.c strncat_s.c memcmp32_s.c strcasestr_s.c strncpy_s.c memcmp_s.c strcat_s.c strnlen_s.c memcpy16_s.c strcmpfld_s.c strnterminate_s.c memcpy32_s.c strcmp_s.c strpbrk_s.c memcpy_s.c strcpyfldin_s.c strprefix_s.c memmove16_s.c strcpyfldout_s.c strremovews_s.c memmove32_s.c strcpyfld_s.c strspn_s.c memmove_s.c strcpy_s.c strstr_s.c mem_primitives_lib.c strcspn_s.c strtok_s.c strfirstchar_s.c strtolowercase_s.c memset16_s.c strfirstdiff_s.c strtouppercase_s.c memset32_s.c strfirstsame_s.c strzero_s.c memset_s.c strisalphanumeric_s.c  wcpcpy_s.c memzero16_s.c strisascii_s.c wcscat_s.c memzero32_s.c strisdigit_s.c wcscpy_s.c memzero_s.c strishex_s.c wcsncat_s.c     strislowercase_s.c wcsncpy_s.c safe_mem_constraint.c strismixedcase_s.c wcsnlen_s.c  strispassword_s.c wmemcmp_s.c safe_str_constraint.c strisuppercase_s.c wmemcpy_s.c strlastchar_s.c wmemmove_s.c snprintf_support.c strlastdiff_s.c wmemset_s.c
+lskjdfl;aldkfja
+
 
 _TLIST = $(addprefix $(ODIR)/,$(_CLIB))
 OBJ = $(patsubst %.c,%.o,$(_TLIST))
