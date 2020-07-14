@@ -1,3 +1,4 @@
+# First commit
 IDIR = include
 MKDIR_P = mkdir -p
 CC=gcc
